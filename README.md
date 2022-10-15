@@ -1,5 +1,17 @@
 <h1 align="center"> EasyBukkitAPI </h1>
 
+<h2> Why EasyBukkit API? </h2>
+
+<p> The API will reduce the time to develop the plugin through improved methods for creating any minecraft objects </p>
+
+<h2> EasyBukkitAPI elements: </h2>
+<ul>
+  <li> EasyItem - simple create ItemStack
+  <li> EasyGui - simple create Gui
+  <li> EasyHologram - simple create Hologram
+</ul>
+<h3> You can also add events for any elements </h3>
+
 <h2 align="center"> How to use Item API: </h2>
 
 <h3> Create EasyItem: </h3>
