@@ -51,7 +51,7 @@ Gui gui = new EasyGui("Menu", 3).addItem(
                             event.setCancelled(true);
                             event.getWhoClicked().sendMessage("Hello, " + event.getWhoClicked().getName());
                         })
-        );
+                );
 
 ```
 
@@ -67,7 +67,7 @@ Gui menuGui = new EasyGui("Menu", 3).addItem(
                             event.setCancelled(true);
                             event.getWhoClicked().sendMessage("Hello, " + event.getWhoClicked().getName());
                         })
-        );
+                );
 
 Item menu = new EasyItem(Material.COMPASS)
                 .setName("Server menu")
@@ -77,4 +77,29 @@ Item menu = new EasyItem(Material.COMPASS)
                         event.getPlayer().openInventory(menuGui.create());
                     }
                 });
+```
+
+<h2 align="center"> How to use Hologram API: </h2>
+
+<h3> How to create Hologram: </h3>
+
+```java
+Hologram holo = new EasyHologram(new Location(Bukkit.getWorld("world"), 50, 100, 50).addLore("test").addLore("test2");
+holo.spawn();
+```
+
+<h3> How to create clickable Hologram: </h3>
+
+```java
+Hologram holo = new EasyHologram(new Location(Bukkit.getWorld("world"), 50, 100, 50)
+                          .addLore("test")
+                          .addLore("test2")
+                          .onUsable(event -> event.getPlayer().sendMessage("Test message");
+holo.spawn();
+```
+
+<h3> How to remove Hologram </h3>
+
+```java
+holo.kill();
 ```
