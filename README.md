@@ -9,7 +9,7 @@
 Item sword = new EasyItem(Material.IRON_SWORD).setName("Magic Sword").addLore("The sword does a lot of damage").addEnchantment(Enchantment.DAMAGE_ALL, 10);
 ```
 
-<h3> Create clickable EasyItem </h3>
+<h3> Create clickable EasyItem: </h3>
 
 ```java
 Item soup = new EasyItem(Material.BEETROOT_SOUP)
@@ -22,7 +22,7 @@ Item soup = new EasyItem(Material.BEETROOT_SOUP)
                 });
 ```
 
-<h3> How to give an item to a player</h3>
+<h3> How to give an item to a player: </h3>
 
 ```java
 
