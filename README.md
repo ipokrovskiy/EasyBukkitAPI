@@ -60,7 +60,7 @@ Gui gui = new EasyGui("Menu", 3).addItem(
 ```java
 //Menu example
 
-Gui gui = new EasyGui("Menu", 3).addItem(
+Gui menuGui = new EasyGui("Menu", 3).addItem(
                 new EasyGuiItem(Material.APPLE)
                         .setName("Hello World")
                         .onUsable(event -> {
@@ -74,7 +74,7 @@ Item menu = new EasyItem(Material.COMPASS)
                 .addLore("Right click to open menu")
                 .onUsable(event -> {
                     if(event.getAction() == Action.RIGHT_CLICK_AIR || event.getAction() == Action.LEFT_CLICK_BLOCK) {
-                        event.getPlayer().openInventory(menu.create());
+                        event.getPlayer().openInventory(menuGui.create());
                     }
                 });
 ```
