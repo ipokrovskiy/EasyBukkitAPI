@@ -115,3 +115,10 @@ holo.spawn();
 ```java
 holo.kill();
 ```
+
+<h2> Items will be added soon </h2>
+<ul>
+  <li> EasyBoard - simple create a Player Scoreboard
+  <li> EasyNPC - simple create NPC
+  <li> EasyTab - make server tab look nice
+</ul>
