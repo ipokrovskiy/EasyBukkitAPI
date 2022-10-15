@@ -98,7 +98,7 @@ Hologram holo = new EasyHologram(new Location(Bukkit.getWorld("world"), 50, 100,
 holo.spawn();
 ```
 
-<h3> How to remove Hologram </h3>
+<h3> How to remove Hologram: </h3>
 
 ```java
 holo.kill();
