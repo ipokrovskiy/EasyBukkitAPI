@@ -33,8 +33,6 @@ public void onJoin(PlayerJoinEvent event) {
     event.getPlayer().getInventory().addItem(sword.create()); //method create() will transfer EasyItem to ItemStack
 }
 ```
-
-
 <h2 align="center"> How to use Gui API: </h2>
 
 <h3> Create Gui: </h3>
