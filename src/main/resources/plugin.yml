@@ -1,0 +1,7 @@
+name: EasyBukkitAPI
+version: '${project.version}'
+main: me.pokrovskiy.easybukkitapi.EasyBukkitAPI
+api-version: 1.15
+author: pokrovskiy
+description: This plugin will make it easier for novice developers to create plugins
+website: https://vk.com/pokrovskiy
