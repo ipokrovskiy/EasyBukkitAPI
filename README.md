@@ -1,7 +1,8 @@
 <h1 align="center"> EasyBukkitAPI </h1>
 
 
-<h2> Item API </h2>
+
+
 ```java
 #create custom item
 Item sword = new EasyItem(Material.IRON_SWORD).setName("Magic Sword").addLore("The sword does a lot of damage").addEnchantment(Enchantment.DAMAGE_ALL, 10);
