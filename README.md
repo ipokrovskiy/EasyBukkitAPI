@@ -30,4 +30,4 @@ public void onJoin(PlayerJoinEvent event) {
     Item sword = EasyItem(Material.IRON_SWORD).setName("Magic Sword").addLore("The sword does a lot of damage").addEnchantment(Enchantment.DAMAGE_ALL, 10);
     event.getPlayer().getInventory().addItem(sword.create()); //method create() will transfer EasyItem to ItemStack
 }
-
+```
